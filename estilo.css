@@ -1,0 +1,270 @@
+precisamos adicionar o seguinte estilo para que ele funcione corretamente.
+
+::-webkit-input-placeholder { /* WebKit browsers */
+  font-size: 15px;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  font-size: 15px;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  font-size: 15px;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+  font-size: 15px;
+}
+
+
+body.bg{
+	background:url(imagens/bg.jpg) ;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+form.form-login{
+	background-color: rgba(250,246,246,0.4);
+	box-shadow: 2px 2px #000;
+	width: 500px;
+	padding: 30px;
+	margin: 100px auto;
+	border-radius: 10px;
+}
+
+form.form-login h2{
+	text-align: center;
+}
+
+input[type="text"]{
+	width: 400px;
+	height: 30px;
+	border-radius: 5px;
+	margin: 0px 30px 20px 40px ;
+	font-size: 15px;
+}
+
+
+input[type="password"]{
+	width: 400px;
+	height: 30px;
+	border-radius: 5px;
+	margin: 0px 30px 20px 40px ;
+	font-size: 15px;
+}
+
+input[type="submit"]{
+	background-color: #31b573;
+	color: white;
+	margin:0 0 20px 90px;
+	height: 30px;
+	width: 300px;
+	border-top:1px solid black;
+	border-left:1px solid black;
+	border-color:black;
+	border-radius: 5px;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+input[type="number"]{
+	width: 400px;
+	height: 30px;
+	border-radius: 5px;
+	margin: 0;
+	font-size: 15px;
+}
+
+input[type="number"]:focus{
+	border-top: 2px solid green;
+	border-right: 2px solid green;
+	border-left: 2px  solid green;
+	border-bottom: 2px solid green;
+}
+
+
+input[type="submit"]:hover{
+	background-color: #04ca67;
+}
+input[type="text"]:focus{
+	border-top: 2px solid green;
+	border-right: 2px solid green;
+	border-left: 2px  solid green;
+	border-bottom: 2px solid green;
+}
+
+input[type="password"]:focus{
+	border-top: 2px solid green;
+	border-right: 2px solid green;
+	border-left: 2px  solid green;
+	border-bottom: 2px solid green;
+}
+
+.campo-vazio{
+	border-top: 2px solid red;
+	border-right: 2px solid red;
+	border-left: 2px  solid red;
+	border-bottom: 2px solid red;
+}
+
+.form-login a{
+	text-decoration: none;
+	font-size: 20px;
+	color:#226528;
+	margin-left: 200px;
+	font-weight: bold;
+}
+
+.form-login a:hover{
+	color:black;
+}
+
+body{
+	margin: 0 ;
+}
+
+nav.menu  a{
+	padding: 10px;
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+nav.menu  .icone-logo{
+	margin:0 15px 0 0;
+	font-size:50px;
+	text-shadow: 3px 3px black;
+}
+
+
+nav.menu{
+	background-color: #309234;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+nav.menu ul{
+	list-style: none;
+	display: flex;
+	align-items: center;
+
+}
+
+nav.menu ul li{
+	text-align: center;
+}
+
+nav.menu ul li a{
+	padding: 1px;
+	display: inline-block;
+	padding: 10px 8px;
+	background-color: #88c99d;
+	border-radius: 5px;
+	box-shadow: 2px 2px black;
+	margin-right: 15px;
+	font-size: 15px;
+}
+
+nav.menu ul li a:hover{
+	color:black;
+}
+
+nav.menu ul li a i{
+	margin-right: 5px;
+}
+
+div h2{
+	margin: 8px auto;
+	background-color: green;
+	width: 1000px;
+	border-radius: 5px;
+	color: white;
+	text-align: center;
+}
+
+table.table{
+	border: 3px solid green;
+	width: 1000px;
+	margin: 0 auto;
+	border-radius: 5px;
+}
+
+table.table td{
+	font-size: 18px;
+	text-align: center;
+}
+
+
+table.table th{
+	font-size: 22px;
+	text-align: center;
+}
+
+
+table.table td i{
+	color:green;
+	margin-left: 3px;
+}
+
+table.table td i:hover{
+	color:black;
+}
+
+.busca{
+	width: 1000px;
+	margin:0 auto; 
+}
+
+input.input-busca{
+	margin: 0;
+}
+
+input[type="submit"].input2-busca{
+	margin: 0 0 20px 0;
+	height: 30px;
+	width: 120px;
+}
+
+.cadastro-produto{
+	display: flex;
+	flex-direction: column;
+	width: 1000px;
+	margin: 0 auto;
+	align-items: center;
+}
+
+
+.cadastro-produto input[type="submit"]{
+	margin-top: 20px;
+}
+
+.form-produto{
+	margin-top:20px;
+}
+
+
+.cadastro-produto label{
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.cadastro-produto a{
+	text-decoration: none;
+	color: #226528;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.cadastro-produto a:hover{
+	color:black;
+}
+
+
+
+
+
